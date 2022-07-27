@@ -95,6 +95,12 @@ section{
 
 .footer{
     background-color: var(--backgr-blk);
-    
-
+    color: var(--font-bright);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a {
+    color: var(--font-bright);
+    text-decoration: none;
 }
