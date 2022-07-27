@@ -1,0 +1,41 @@
+/* Main style colors, fonts, borders... */
+:root{
+    --font-hover:rgb(255 215 0);
+    --font-bright: rgb(255,255,255);
+    --font-dark: rgb(18, 5, 5);
+}
+
+
+
+
+
+/* Header Navigation */
+header {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo > img {
+    height: 80px;
+}
+.menu-list{
+    color: var(--font-bright);
+    display: flex;
+    gap: 25px;
+    margin-right: 40px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.menu-list a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu-list a:hover {
+    color: var(--font-hover);
+    border-bottom: 1px solid var(--font-hover);
+}
+.active{
+    border-bottom: 1px solid var(--font-hover);
+}
