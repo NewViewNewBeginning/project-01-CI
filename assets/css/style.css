@@ -34,7 +34,7 @@ header {
 	color: var(--font-hover);
 	border-bottom: 1px solid var(--font-hover);
 }
-.active {
+.active-page {
 	border-bottom: 1px solid var(--font-hover);
 }
 
