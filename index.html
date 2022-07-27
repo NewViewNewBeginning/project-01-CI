@@ -28,15 +28,39 @@
         </nav>
     </header>
     <section class="team"></section>
-    <section class="players">
+    <section class="">
 
     </section>
-    <footer class="footer"></footer>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div>
+            <div class="info"></div>
+            <ul class="social-networks">
+                <li><a href="https://facebook.com" target="_blank"
+                        aria-label="Visit our page Facebook(opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://twitter.com" target="_blank"
+                        aria-label="Visit our page Twiter(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li><a href="https://instagram.com" target="_blank"
+                        aria-label="Visit our page Instagram (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank"
+                        aria-label="Visit our page Youtube(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- Script to operate hamburge menu -->
     <script>
         const hamburger = document.querySelector('.hamburger')
         const menuList = document.querySelector('.menu-list')
 
-        hamburger.addEventListener('click',()=>{
+        hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active')
             menuList.classList.toggle('active')
         })

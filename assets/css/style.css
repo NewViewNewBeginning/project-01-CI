@@ -84,3 +84,17 @@ header {
         left: 0;
     }
 }
+
+section{
+    height: 20vh;
+
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-color: var(--backgr-blk);
+    
+
+}
