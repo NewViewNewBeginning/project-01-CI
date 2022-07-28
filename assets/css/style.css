@@ -115,6 +115,22 @@ header {
 	margin: 20px;
 }
 
+
+.stadion{
+    background-color: var(--backgr-blk);
+}
+.stadion h3 {
+    color: var(--font-bright);
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+}
+.stadion img{
+    width: 100%;
+    max-height: 600px;
+    
+}
+
 /* FOOTER */
 
 .footer {
