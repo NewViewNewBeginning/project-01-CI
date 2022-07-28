@@ -11,13 +11,13 @@ h3,
 h4,
 h5,
 h5 {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+	font-family: "Roboto", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500&display=swap");
 
 /* Header Navigation */
 header {
@@ -115,20 +115,18 @@ header {
 	margin: 20px;
 }
 
-
-.stadion{
-    background-color: var(--backgr-blk);
+.stadion {
+	background-color: var(--backgr-blk);
 }
 .stadion h3 {
-    color: var(--font-bright);
-    text-align: center;
-    padding: 20px 0;
-    font-weight: 600;
+	color: var(--font-bright);
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 600;
 }
-.stadion img{
-    width: 100%;
-    max-height: 600px;
-    
+.stadion img {
+	width: 100%;
+	max-height: 600px;
 }
 
 /* FOOTER */
@@ -210,28 +208,37 @@ header {
 	.social-container {
 		margin-top: 20px;
 	}
-    /* history section */
+	/* history section */
 
-    .team-history-wrapper{
-        flex-direction: column;
-        align-items: center;
-    }
-    .team-article {
-        width: 100%;
-        text-align: center;
-    }
-    .trophy-aside{
-        width: 100%;
-        color: var(--font-bright);
-        background-color: rgba(0, 0, 0, 0.53);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
+	.team-history-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.team-article {
+		width: 100%;
+		text-align: center;
+	}
+	.trophy-aside {
+		width: 100%;
+		color: var(--font-bright);
+		background-color: rgba(0, 0, 0, 0.53);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+	}
 
-    /* Stars */
-    .stars-break img{
-        height: 100px;
-    }
+	/* Stars */
+	.stars-break img {
+		height: 100px;
+	}
+}
+
+/* PLAYERS PAGE */
+.players-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 3px;
+	grid-row-gap: 3px;
 }
