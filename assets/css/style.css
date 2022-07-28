@@ -5,6 +5,19 @@
 	--font-dark: rgb(18, 5, 5);
 	--backgr-blk: rgb(18, 5, 5);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    text-transform: uppercase;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500&display=swap');
 
 /* Header Navigation */
 header {
@@ -52,22 +65,55 @@ header {
 	background-color: var(--font-bright);
 }
 
-
-section {
-	height: 20vh;
-}
-
-
 /* History section */
 
-.history-header{
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-align: center;
-    margin: 20px 0;
+.history-header {
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-align: center;
+	margin: 20px 0;
+}
+.team-history-wrapper {
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.1rem;
+}
+.team-article {
+	width: 70%;
+}
+.team-article-text {
+	line-height: 1.2;
+	letter-spacing: 1px;
+	margin: 15px;
+}
+.trophy-aside h3 {
+	font-size: 1.2rem;
+	margin: 15px;
+	font-weight: 800;
+}
+.trophy-list li {
+	margin: 10px 0;
+}
+.trophy-list i {
+	margin-right: 10px;
+	color: var(--font-hover);
 }
 
-
+/* STARS */
+.stars-section h2 {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-top: 20px;
+}
+.stars-break {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.stars-break img {
+	height: 200px;
+	margin: 20px;
+}
 
 /* FOOTER */
 
@@ -88,15 +134,15 @@ section {
 }
 .footer-heading {
 	font-size: 1.5rem;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
-.contacts{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.contacts {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 .contacts i {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 .social-networks {
@@ -107,7 +153,6 @@ section {
 .fa-brands {
 	font-size: 2.5rem;
 }
-
 
 /* MEDIA QUERRIES */
 
@@ -142,12 +187,35 @@ section {
 	.menu-list.active {
 		left: 0;
 	}
-    .footer{
-        display: flex;
-        flex-direction: column-reverse;
+	.footer {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.social-container {
+		margin-top: 20px;
+	}
+    /* history section */
+
+    .team-history-wrapper{
+        flex-direction: column;
+        align-items: center;
     }
-    .social-container{
-        margin-top: 20px;
+    .team-article {
+        width: 100%;
+        text-align: center;
+    }
+    .trophy-aside{
+        width: 100%;
+        color: var(--font-bright);
+        background-color: rgba(0, 0, 0, 0.53);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
     }
 
+    /* Stars */
+    .stars-break img{
+        height: 100px;
+    }
 }
