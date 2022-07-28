@@ -81,7 +81,7 @@ header {
 .team-article {
 	width: 70%;
 }
-.team-article-text {
+.team-article-text, .players-header p {
 	line-height: 1.2;
 	letter-spacing: 1px;
 	margin: 15px;
@@ -235,6 +235,20 @@ header {
 }
 
 /* PLAYERS PAGE */
+
+.players-header{
+    background-image: url(../img/fc-juventus-stadium-history-header-bg.jpg);
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+    text-align: center;
+}
+.players-header h1 {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
 .players-container {
     margin: 0 auto;
     max-width: 1400px;
