@@ -57,6 +57,18 @@ section {
 	height: 20vh;
 }
 
+
+/* History section */
+
+.history-header{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
 /* FOOTER */
 
 .footer {
