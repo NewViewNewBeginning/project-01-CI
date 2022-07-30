@@ -81,7 +81,8 @@ header {
 .team-article {
 	width: 70%;
 }
-.team-article-text, .players-header p {
+.team-article-text,
+.players-header p {
 	line-height: 1.2;
 	letter-spacing: 1px;
 	margin: 15px;
@@ -236,87 +237,159 @@ header {
 
 /* PLAYERS PAGE */
 
-.players-header{
-    background: url('../img/fc-juventus-stadium-history-header-bg.jpg') ;
-    
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    min-height: 300px;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
+.players-header {
+	background: url("../img/fc-juventus-stadium-history-header-bg.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
 }
 .players-header h1 {
-    padding: 20px;
-    font-size: 2rem;
-    font-weight: 800;
+	padding: 20px;
+	font-size: 2rem;
+	font-weight: 800;
 }
-.players-header-container{    
-    background-color:rgba(0, 0, 0, 0.613);
-    color: var(--font-bright);
-    border-radius: 10px;
-    width: 80%;
-    padding: 15px;
-    margin: 0 auto;    
+.players-header-container {
+	background-color: rgba(0, 0, 0, 0.613);
+	color: var(--font-bright);
+	border-radius: 10px;
+	width: 80%;
+	padding: 15px;
+	margin: 0 auto;
 }
 
 .players-container {
-    margin: 0 auto;
-    /* max-width: 1400px; */
+	margin: 0 auto;
+	/* max-width: 1400px; */
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	grid-column-gap: 3px;
 }
 .player-cell {
-    overflow: hidden;
-    height: 80%;
-    text-align: center;
+	overflow: hidden;
+	height: 80%;
+	text-align: center;
 }
-.player-cell img{
-    width: 100%;
-    height: 100%;
-    transition: all 0.4s;
-    
+.player-cell img {
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s;
 }
-.player-cell img:hover{
-    transform: scale(1.1)
+.player-cell img:hover {
+	transform: scale(1.1);
 }
-.player-name{
-    background-color: rgba(0, 0, 0, 0.613);
-    color: var(--font-hover);
-    padding: 10px;
-    border-radius: 5px;
-    position: relative;
-    top: -12%;
-    
-} 
+.player-name {
+	background-color: rgba(0, 0, 0, 0.613);
+	color: var(--font-hover);
+	padding: 10px;
+	border-radius: 5px;
+	position: relative;
+	top: -12%;
+}
 
-    
-@media only screen and (max-width: 768px){
-    .players-container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-    }
+@media only screen and (max-width: 768px) {
+	.players-container {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+	}
 }
-@media only screen and (max-width: 500px){
-    .players-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-    }
+@media only screen and (max-width: 500px) {
+	.players-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+	}
 }
 
 /* FANCLUB PAGE FORM */
 
 .fanclub-testimonial {
-    padding: 30px ;
-    text-align: center;
-    line-height: 1.2;
-    word-spacing: 3px;
+	padding: 30px;
+	text-align: center;
+	line-height: 1.2;
+	word-spacing: 3px;
 }
 .fanclub-testimonial h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.cta {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	background-image: linear-gradient(to right bottom, #0c06016c, #0f0701);
+    margin: 2rem;
+	overflow: hidden;
+}
+
+.cta-text-box {
+	padding: 30px;
+	color: #45260a;
+}
+
+.cta .heading-secondary {
+	margin-bottom: 20px;
+}
+
+.cta-text {
+	font-size: 1.3rem;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.cta-img-box {
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(255, 255, 255, 0.23),
+			rgba(3, 1, 0, 0.751)
+		),
+		url("../img/curva-sud.avif");
+	background-size: cover;
+	background-position: center;
+}
+
+.cta-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 3.2rem;
+	row-gap: 2.4rem;
+}
+
+.cta-form label {
+	display: block;
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select,
+.btn--form {
+	width: 80%;
+	padding: 1.2rem;
+	font-size: 1.2rem;
+	border: none;
+	background-color: #fdf2e9;
+	border-radius: 10px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.btn--form {
+    height: 70%;
+    
+}
+
+.cta-form input::placeholder {
+	color: #aaa;
+}
+
+.cta *:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
