@@ -17,3 +17,5 @@ hitory-text -----https://en.wikipedia.org/wiki/List_of_Juventus_F.C._records_and
 text for topl players https://bleacherreport.com/articles/1124889-top-10-juventus-legends-of-the-last-20-years
 
 bug --- active class for hamburger overwrite css class for active page --- change class for cur page
+
+bug --- scale pictures with wrong ratio 

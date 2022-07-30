@@ -237,10 +237,14 @@ header {
 /* PLAYERS PAGE */
 
 .players-header{
-    background-image: url(../img/fc-juventus-stadium-history-header-bg.jpg);
-    margin: 0 auto;
-    padding: 20px 0;
-    width: 90%;
+    background: url('../img/fc-juventus-stadium-history-header-bg.jpg') ;
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    min-height: 300px;
+    padding: 20px;
+    width: 100%;
     text-align: center;
 }
 .players-header h1 {
@@ -248,18 +252,26 @@ header {
     font-size: 2rem;
     font-weight: 800;
 }
+.players-header-container{    
+    background-color:rgba(0, 0, 0, 0.613);
+    color: var(--font-bright);
+    border-radius: 10px;
+    width: 80%;
+    padding: 15px;
+    margin: 0 auto;    
+}
 
 .players-container {
     margin: 0 auto;
-    max-width: 1400px;
+    /* max-width: 1400px; */
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	grid-column-gap: 3px;
-	grid-row-gap: 3px;
 }
 .player-cell {
     overflow: hidden;
+    height: 80%;
     text-align: center;
 }
 .player-cell img{
@@ -277,7 +289,7 @@ header {
     padding: 10px;
     border-radius: 5px;
     position: relative;
-    top: -10%;
+    top: -12%;
     
 } 
 
