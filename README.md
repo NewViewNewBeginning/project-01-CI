@@ -18,4 +18,5 @@ text for topl players https://bleacherreport.com/articles/1124889-top-10-juventu
 
 bug --- active class for hamburger overwrite css class for active page --- change class for cur page
 
-bug --- scale pictures with wrong ratio 
+bug --- scale pictures with wrong ratio height on container reduced to 80%
+
