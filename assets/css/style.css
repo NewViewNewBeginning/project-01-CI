@@ -306,3 +306,17 @@ header {
         grid-template-rows: repeat(6, 1fr);
     }
 }
+
+/* FANCLUB PAGE FORM */
+
+.fanclub-testimonial {
+    padding: 30px ;
+    text-align: center;
+    line-height: 1.2;
+    word-spacing: 3px;
+}
+.fanclub-testimonial h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
