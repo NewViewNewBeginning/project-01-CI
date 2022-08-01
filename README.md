@@ -21,3 +21,6 @@ bug --- active class for hamburger overwrite css class for active page --- chang
 bug --- scale pictures with wrong ratio height on container reduced to 80%
 
 fanclub text ---- https://www.juventus.com/en/bianconeri/official-fan-club/
+
+
+bug- remove padding in players header which cousing adding hirizontal scroll
