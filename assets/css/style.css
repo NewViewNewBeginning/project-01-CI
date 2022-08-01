@@ -317,6 +317,9 @@ header {
 	font-weight: 700;
 	margin-bottom: 20px;
 }
+.fanclub-testimonial p {
+	font-size: 1.3rem;
+}
 
 .cta {
 	display: grid;
@@ -328,10 +331,12 @@ header {
 	overflow: hidden;
 }
 .cta-text-box {
-	padding: 30px;
+	padding: 2rem;
 	color: #45260a;
 }
-
+.heading-secondary{
+	font-size: 1.5rem;
+}
 .cta .heading-secondary {
 	margin-bottom: 20px;
 }
