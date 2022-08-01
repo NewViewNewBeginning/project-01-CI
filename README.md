@@ -24,3 +24,5 @@ fanclub text ---- https://www.juventus.com/en/bianconeri/official-fan-club/
 
 
 bug- remove padding in players header which cousing adding hirizontal scroll
+
+bug- media q for .trophy-aside padding was cousing x scroll 

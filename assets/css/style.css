@@ -20,12 +20,16 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500&display=swap");
 
 /* Header Navigation */
+
 header {
+	
 	height: 100px;
+	width: 100%;
 	background-color: black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	
 }
 .logo > img {
 	height: 80px;
@@ -71,7 +75,7 @@ header {
 	font-size: 2.5rem;
 	font-weight: 600;
 	text-align: center;
-	margin: 20px 0;
+	margin: 20px 10px;
 }
 .team-history-wrapper {
 	display: flex;
@@ -79,11 +83,11 @@ header {
 	font-size: 1.1rem;
 }
 .team-article {
-	width: 70%;
+	width: 60%;
 }
 .team-article-text,
 .players-header p {
-	line-height: 1.2;
+	line-height: 1.4;
 	letter-spacing: 1px;
 	margin: 15px;
 }
@@ -112,10 +116,12 @@ header {
 }
 
 /* STARS */
+
 .stars-section h2 {
 	text-align: center;
 	font-size: 1.8rem;
-	margin-top: 20px;
+	margin-top: 20px ;
+	padding: 10px;
 }
 .stars-break {
 	display: flex;
@@ -124,7 +130,7 @@ header {
 }
 .stars-break img {
 	height: 200px;
-	margin: 20px;
+	margin: 10px;
 }
 
 .stadion {
@@ -183,6 +189,7 @@ header {
 /* MEDIA QUERRIES */
 
 @media only screen and (max-width: 768px) {
+	
 	.hamburger {
 		display: block;
 		margin-right: 30px;
@@ -237,7 +244,7 @@ header {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 20px;
+		padding: 20px 0;
 	}
 
 	/* Stars */
@@ -257,6 +264,7 @@ header {
 	min-height: 300px;
 	width: 100%;
 	text-align: center;
+	padding: 20px 0;
 }
 .players-header h1 {
 	padding: 20px;
