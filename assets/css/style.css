@@ -71,16 +71,17 @@ header {
 
 /* History section */
 
+.team-history {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.1rem;
+}
 .history-header {
 	font-size: 2.5rem;
 	font-weight: 600;
 	text-align: center;
 	margin: 20px 10px;
-}
-.team-history-wrapper {
-	display: flex;
-	justify-content: space-around;
-	font-size: 1.1rem;
 }
 .team-article {
 	width: 60%;
@@ -229,7 +230,7 @@ header {
 	}
 	/* history section */
 
-	.team-history-wrapper {
+	.team-history {
 		flex-direction: column;
 		align-items: center;
 	}
