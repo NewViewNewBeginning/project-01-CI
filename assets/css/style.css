@@ -323,7 +323,7 @@ header {
 	grid-template-columns: 2fr 1fr;
 	box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 	border-radius: 10px;
-	background-image: linear-gradient(to right bottom, #0c06016c, #0f0701);
+	background-image: linear-gradient(to right bottom, #0c06013c, #0f0701b3);
 	margin: 2rem;
 	overflow: hidden;
 }
@@ -348,7 +348,7 @@ header {
 			rgba(255, 255, 255, 0.23),
 			rgba(3, 1, 0, 0.751)
 		),
-		url('../img/form-fans.webp');
+		url("../img/form-fans.webp");
 	background-size: cover;
 	background-position: center;
 }
@@ -379,7 +379,6 @@ header {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-
 .cta-form input::placeholder {
 	color: #aaa;
 }
@@ -387,4 +386,25 @@ header {
 .cta *:focus {
 	outline: none;
 	box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+@media only screen and (max-width: 1000px) {
+	.cta {
+		grid-template-columns: 1fr;
+	}
+
+	.cta-text-box {
+		padding: 3.2rem;
+	}
+
+	.cta-img-box {
+		height: 20rem;
+		grid-row: 1;
+	}
+}
+@media only screen and (max-width: 740px) {
+	.cta-form {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 }
