@@ -100,6 +100,17 @@ header {
 	color: var(--font-hover);
 }
 
+.stadion img{
+	display: block;
+	background-image: url('../img/visiting.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 50vh;
+	width: 100%;
+	
+}
+
 /* STARS */
 .stars-section h2 {
 	text-align: center;
