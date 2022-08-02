@@ -158,7 +158,7 @@ header {
 
 /* FOOTER */
 
-.footer {
+.footer-info {
 	background-color: var(--backgr-blk);
 	color: var(--font-bright);
 	display: flex;
@@ -193,6 +193,13 @@ header {
 }
 .fa-brands {
 	font-size: 2.5rem;
+}
+.copyright {
+	background-color: var(--backgr-blk);
+	color: var(--font-bright);
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 /* MEDIA QUERRIES */
@@ -229,7 +236,7 @@ header {
 	.menu-list.active {
 		left: 0;
 	}
-	.footer {
+	.footer-info {
 		display: flex;
 		flex-direction: column-reverse;
 	}
