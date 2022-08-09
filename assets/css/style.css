@@ -278,7 +278,6 @@ header {
 
 .players-header {
 	background: url("../img/fc-juventus-stadium-history-header-bg.jpg");
-
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -286,6 +285,7 @@ header {
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
+	
 }
 .players-header h1 {
 	padding: 20px;
@@ -302,16 +302,15 @@ header {
 }
 
 .players-container {
-	margin: 0 auto;
-
+	margin: 40px 0;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-column-gap: 3px;
+	gap: 5px;
+	justify-content: center;
 }
 .player-cell {
 	overflow: hidden;
-	height: 80%;
+	height: 100%;
 	text-align: center;
 }
 .player-cell img {
@@ -328,19 +327,19 @@ header {
 	padding: 10px;
 	border-radius: 5px;
 	position: relative;
-	top: -12%;
+	top: -20%;
 }
 
 @media only screen and (max-width: 768px) {
 	.players-container {
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(4, 1fr);
+		/* grid-template-rows: repeat(4, 1fr); */
 	}
 }
 @media only screen and (max-width: 500px) {
 	.players-container {
 		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(6, 1fr);
+		/* grid-template-rows: repeat(6, 1fr); */
 	}
 }
 
