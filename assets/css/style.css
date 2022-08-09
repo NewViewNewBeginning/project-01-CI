@@ -8,7 +8,7 @@
 	--font-dark: rgb(18, 5, 5);
 	--backgr-blk: rgb(18, 5, 5);
 }
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -285,7 +285,6 @@ header {
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
-	
 }
 .players-header h1 {
 	padding: 20px;
@@ -364,7 +363,7 @@ header {
 .fanclub-testimonial p {
 	font-size: 1.3rem;
 }
-.section-cta{
+.section-cta {
 	margin: 0 auto;
 	max-width: 1400px;
 }
@@ -459,14 +458,12 @@ header {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	.cta{
+	.cta {
 		margin: 0;
 	}
 	.cta-form input,
 	.cta-form select,
-	.btn--form
-	{
+	.btn--form {
 		width: 100%;
 	}
 }
-
