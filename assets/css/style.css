@@ -273,6 +273,11 @@ header {
 		height: 100px;
 	}
 }
+@media only screen and (max-width: 500px){
+	.stars-break img {
+		height: 70px;
+	}
+}
 
 /* PLAYERS PAGE */
 
