@@ -459,9 +459,6 @@ header {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-}
-
-@media only screen and (max-width: 540px) {
 	.cta{
 		margin: 0;
 	}
@@ -472,3 +469,4 @@ header {
 		width: 100%;
 	}
 }
+
