@@ -349,6 +349,8 @@ header {
 /* FANCLUB PAGE FORM */
 
 .fanclub-testimonial {
+	max-width: 1200px;
+	margin: 0 auto;
 	padding: 30px;
 	text-align: center;
 	line-height: 1.2;
@@ -362,7 +364,10 @@ header {
 .fanclub-testimonial p {
 	font-size: 1.3rem;
 }
-
+.section-cta{
+	margin: 0 auto;
+	max-width: 1400px;
+}
 .cta {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -453,5 +458,17 @@ header {
 	.cta-form {
 		display: grid;
 		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.cta{
+		margin: 0;
+	}
+	.cta-form input,
+	.cta-form select,
+	.btn--form
+	{
+		width: 100%;
 	}
 }
