@@ -16,13 +16,13 @@
 	text-decoration: none;
 }
 
+
 h1,
 h2,
-h3,
-h4,
-h5,
-h5 {
+h3
+{
 	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 body {
 	font-family: "Roboto", sans-serif;
@@ -95,7 +95,6 @@ header {
 	margin: 15px;
 	font-style: italic;
 	text-decoration: underline;
-	letter-spacing: 1px;
 	font-weight: 500;
 }
 .team-article {
@@ -104,7 +103,6 @@ header {
 .team-article-text,
 .players-header p {
 	line-height: 1.4;
-	letter-spacing: 1px;
 	margin: 15px;
 }
 .trophy-aside h3 {
@@ -194,7 +192,6 @@ header {
 
 .social-networks {
 	display: flex;
-
 	gap: 2.5rem;
 }
 .fa-brands {
@@ -340,13 +337,11 @@ header {
 	}
 	.players-container {
 		grid-template-columns: repeat(3, 1fr);
-		/* grid-template-rows: repeat(4, 1fr); */
 	}
 }
 @media only screen and (max-width: 500px) {
 	.players-container {
 		grid-template-columns: repeat(2, 1fr);
-		/* grid-template-rows: repeat(6, 1fr); */
 	}
 }
 
