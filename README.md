@@ -194,7 +194,7 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
 
 ![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-lighthouse.png)
 ![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-lighthouse.png)
-![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-lighthouse.png)
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-light.png))
 
 
 ## Code Validation
@@ -257,7 +257,7 @@ ___
 * [xxxxx](xxxxxx)
 
 ### Map:
-* [Google maps](https://www.google.com/maps?ll=52.059441,-9.511501&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=7306226195280410511)
+* [Google maps](https://goo.gl/maps/3r6zWAfrz2FURUMZ9)
 
 
 [Back to Table of contents](#table-of-contents)
