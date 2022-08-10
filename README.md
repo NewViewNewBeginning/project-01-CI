@@ -253,8 +253,6 @@ ___
 
 * Link to burger menu: [Burger menu by Codefox](https://www.youtube.com/watch?v=flItyHiDm7E)
 
-### Map location:
-* [xxxxx](xxxxxx)
 
 ### Map:
 * [Google maps](https://goo.gl/maps/3r6zWAfrz2FURUMZ9)
