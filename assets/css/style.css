@@ -121,12 +121,17 @@ header {
 
 .stadion img {
 	display: block;
-	background-image: url("../img/visiting.jpg");
+	background-image: url("../img/coverallianz.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 50vh;
 	width: 100%;
+}
+@media only screen and (min-width: 668px){
+	.stadion img{
+		min-height: 80vh;
+	}
 }
 
 /* STARS */
