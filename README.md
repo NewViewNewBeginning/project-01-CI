@@ -131,6 +131,8 @@ Each link will open in a separate tab in a browser.
     * User can apply by filling a form with name and email to receive all future informations about events and changes.
     Below a form there is a map with location of a fanclub meeting place.
 
+    
+
 ##  Future implementations
 
 * Add new site with current news and another with more historical facts.
