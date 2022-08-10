@@ -1,5 +1,3 @@
-# project-01-CI
-
 # Michal Krawczyk Porfolio Website
 
 ## Code Institute Milestone Project-01.
@@ -56,7 +54,6 @@ The main reason to create this website is to keep all informations about Juventu
 - user can learn more about team.
 
 ### As a business owner:
-* I would like to present myself and my offer on the website clearly to potential customers.
 * I need to make sure that my current and new customers will find a professional help with needs of informations.
 * I would like to build and maintain relationship with potential and current customers.
 
@@ -66,7 +63,7 @@ The main reason to create this website is to keep all informations about Juventu
 
 ### As a returning customer:
 
-* I want to show my friend a location fanclub and join them with support during game time.
+* All updates, news and informations about team/players/events.
 
 ## Structure of the website
 
@@ -88,14 +85,14 @@ Main colours used in a project:
 
 ### Images
 
-* I used images from [Google.com](www.google.com) and there are credited in [credits](#credits) section.
+* I used images from search in [Google.com](www.google.com) and there are credited in [credits](#credits) section.
 
 
 [Back to Table of contents](#table-of-contents)
 ___
 # Features
 
-The website in made on 3 pages. Three are accessible from a navigation menu.
+The website in made on 3 pages. Three are accessible from a navigation menu which always indicate which is currently on by undeline.
 
 The website has below features:
 
@@ -119,18 +116,20 @@ The website has below features:
 * Footer is consistent on all pages. It has contact details on left side and social links on right side.
 Each link will open in a separate tab in a browser.
 
-## Home
+## Pages
 
 * ### Team History
 
-    * Portfolio includes an image on the left side and profession information on the right side.
-This section is consistent on all pages.
+    * Short text about history of the club with view on a new Satdium under it.
 
+* ### Players 
 
-## Fanclub 
+    * Gallery with some of the best players which played for Juventus.
 
-* Fanclub form is a main part on this site. User can apply by filling a form with name and email to receive all future informations about events and changes.
-Below a form there is a map with location of a fanclub meeting place.
+* ### Fanclub 
+
+    * User can apply by filling a form with name and email to receive all future informations about events and changes.
+    Below a form there is a map with location of a fanclub meeting place.
 
 ##  Future implementations
 
@@ -169,8 +168,8 @@ ___
 * As a development hosting platform.
 
 
-### GNU Image Manipulation Program [GIMP]
-* As an image editor.
+### Converting Program [Convertio](https://convertio.co/)
+* As an image compressor.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -189,15 +188,12 @@ ___
  I tested on hardware devices such as: 14' screen HP laptop, 17' screen Asus laptop, 27' hp monitor, Samsung s20fe, Samsung s7edge and Samsung Note 10.
 
 
-* #### Horizontal scrolling bar on the bottom of the screen.
-
-
-
 ## Performance testing
 
-I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website for each page.
 
 ![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-lighthouse.png)
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-lighthouse.png)
 ![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-lighthouse.png)
 
 
@@ -255,15 +251,13 @@ ___
 
 ### Code
 
-* Links transition: [CSS transition Property](https://www.w3schools.com/cssref/css3_pr_transition.asp)
+* Link to burger menu: [Burger menu by Codefox](https://www.youtube.com/watch?v=flItyHiDm7E)
 
 ### Map location:
-* [fitlife.ie](http://fitlife.ie/)
+* [xxxxx](xxxxxx)
 
 ### Map:
 * [Google maps](https://www.google.com/maps?ll=52.059441,-9.511501&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=7306226195280410511)
-
-### Images:
 
 
 [Back to Table of contents](#table-of-contents)
