@@ -440,6 +440,12 @@ header {
 	box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
+.map{
+	
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+}
 @media only screen and (max-width: 1000px) {
 	.cta {
 		grid-template-columns: 1fr;
@@ -467,4 +473,9 @@ header {
 	.btn--form {
 		width: 100%;
 	}
+	.map{
+		width: 100%;
+	}
 }
+	
+
