@@ -197,8 +197,8 @@ ___
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-![Lighthouse ](./md-img/index-lighthose.png)
-![Lighthouse ](./md-img/fanclub-lighthouse.png)
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-lighthouse.png)
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-lighthouse.png)
 
 
 ## Code Validation
@@ -253,13 +253,9 @@ ___
 
     * [developer.mozilla.org/](https://developer.mozilla.org/)
 
-
 ### Code
 
 * Links transition: [CSS transition Property](https://www.w3schools.com/cssref/css3_pr_transition.asp)
-*  General content:  [fitlife.ie](http://fitlife.ie/lessons-its-your-life-your-fit-life/)
-
-
 
 ### Map location:
 * [fitlife.ie](http://fitlife.ie/)
@@ -268,15 +264,6 @@ ___
 * [Google maps](https://www.google.com/maps?ll=52.059441,-9.511501&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=7306226195280410511)
 
 ### Images:
-
-
-
-[Back to Table of contents](#table-of-contents)
-___
-
-# Screenshots
-
-## Project screenshots
 
 
 [Back to Table of contents](#table-of-contents)
