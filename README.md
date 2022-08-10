@@ -4,7 +4,7 @@
 
 ## Code Institute Milestone Project-01.
 
-![Mockup](md-img/readme-responsive-scrshot.png)
+![Mockup](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/readme-responsive-scrshot.png)
 
 Website presents history of Juventus footbal team and it's best players.
 Users will be able to find interesting content in easy and simple way.
