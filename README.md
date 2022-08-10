@@ -193,7 +193,7 @@ ___
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website for each page.
 
 ![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-lighthouse.png)
-![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-lighthouse.png)
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-lighthouse.png)
 ![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-lighthouse.png)
 
 
