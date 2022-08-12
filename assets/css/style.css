@@ -340,9 +340,11 @@ header {
 @media only screen and (max-width: 768px) {
 	.players-header-container {
 		width: 100%;
+		border-radius: 0;
 	}
 	.players-container {
 		grid-template-columns: repeat(3, 1fr);
+		
 	}
 }
 @media only screen and (max-width: 500px) {
@@ -469,9 +471,11 @@ header {
 	.cta-form {
 		display: grid;
 		grid-template-columns: 1fr;
+		
 	}
 	.cta {
 		margin: 0;
+		border-radius: 0;
 	}
 	.cta-form input,
 	.cta-form select,

@@ -133,7 +133,7 @@ The website has below features:
   - Main text about history of the club with view on a new Satdium under it.
 
   ![Team History](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/main-scr.png)
-  ![Stadion](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/main-scr.png)
+  ![Stadion](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/stadium-scr.png)
 
 - ### Players
 
