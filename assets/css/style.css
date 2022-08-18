@@ -202,6 +202,13 @@ header {
 }
 .fa-brands {
 	font-size: 2.5rem;
+	transition: 0.7s ease;
+}
+.footer-link{
+	transition: 0.7s ease;
+}
+.fa-brands:hover,.footer-link:hover {
+	color: var(--font-hover);
 }
 .copyright {
 	background-color: var(--backgr-blk);
