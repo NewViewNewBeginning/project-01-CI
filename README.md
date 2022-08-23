@@ -68,7 +68,7 @@ The website is designed to be easy and user-friendly on all types of devices. On
 
 ### Colors
 
-Main colours used in a project:
+- Main colours used in a project:
     --font-hover: rgb(255 215 0);    
     --font-bright: rgb(255, 255, 255);    
     --font-dark: rgb(18, 5, 5);    
@@ -95,9 +95,9 @@ The website has below features:
 
 - #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.- Navigation scheme:
   - On the left side there is a logo. It can be used as a navigation link to the main page.  - On the right side there are three links or a burger menu. It contains:
-      - Team history    
-      - Players    
-      - Fanclub
+      -- Team history    
+      -- Players    
+      -- Fanclub
       
       ![Menu](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/navbar-scr.png)
 
