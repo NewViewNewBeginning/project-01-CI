@@ -137,8 +137,11 @@ The website has below features:
 
 - ### Players
 
-  - Gallery with some of the best players which played for Juventus.
+  - Gallery with some of the best players which played for Juventus. Each name is clickable and redirect to other site about player.
+  
+  
     ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
+    
 
 - ### Fanclub
 
@@ -229,10 +232,14 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
 At the and of the project I used two websites to validate a code
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+
+
 ![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-css-valid.png)
 ![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-css-valid.png)
 
 - [Nu Html Checker](https://validator.w3.org/) to test HTML
+
+
 ![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-html-check.png)
 ![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-html-check.png)
 
