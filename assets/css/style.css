@@ -495,7 +495,7 @@ header {
 .submit-page {
 	background-image: linear-gradient(
 		to right bottom,
-		rgba(43, 38, 38, 0.23),
+		rgba(43, 38, 38, 0.858),
 		rgba(38, 14, 3, 0.751)
 	),url('../img/thank-page-img.png');
 	background-size: cover;
@@ -509,6 +509,7 @@ header {
 	color: var(--font-hover);
 }
 .submit-page h2 {
+	text-align: center;
 	font-size: 2rem;
 	padding: 30px;
 }
@@ -518,3 +519,14 @@ header {
 	width: 50%;
 } 
 
+@media only screen and (max-width: 540px){
+	.submit-page h2 {
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+	}
+	.submit-page p{
+		text-align: center;
+		font-size: 1.2rem;
+		width: 70%;
+	} 
+}
