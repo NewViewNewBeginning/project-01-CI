@@ -1,4 +1,4 @@
-# Michal Krawczyk Portfolio Website
+# JuveWorld Portfolio Website
 
 ## Code Institute Milestone Project-01.
 
