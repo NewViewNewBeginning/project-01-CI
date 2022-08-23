@@ -69,7 +69,10 @@ The website is designed to be easy and user-friendly on all types of devices. On
 ### Colors
 
 Main colours used in a project:
-    --font-hover: rgb(255 215 0);    --font-bright: rgb(255, 255, 255);    --font-dark: rgb(18, 5, 5);    --backgr-blk: rgb(18, 5, 5);
+    --font-hover: rgb(255 215 0);    
+    --font-bright: rgb(255, 255, 255);    
+    --font-dark: rgb(18, 5, 5);    
+    --backgr-blk: rgb(18, 5, 5);
 
 ### Fonts
 
@@ -78,6 +81,7 @@ Main colours used in a project:
 ### Images
 
 - I used images from search in [Google.com](www.google.com) and they are credited in the [credits](#credits) section.
+
   [Back to Table of contents](#table-of-contents)
 
 ---
@@ -91,7 +95,10 @@ The website has below features:
 
 - #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.- Navigation scheme:
   - On the left side there is a logo. It can be used as a navigation link to the main page.  - On the right side there are three links or a burger menu. It contains:
-      - Team history    - Players    - Fanclub
+      - Team history    
+      - Players    
+      - Fanclub
+      
       ![Menu](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/navbar-scr.png)
 
 ## Contact us
@@ -101,24 +108,37 @@ The website has below features:
 ## Footer
 
 - Footer is consistent on all pages. It has contact details on the left side and social links on the right side.  Each link will open in a separate tab in a browser.
+
     ![Team History](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/footer-scr.png)
 
 ## Pages
 
 - ### Team History
   - Main text about the history of the club with a view on a new Stadium under it.
-    ![Team History](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/main-scr.png)  ![Stadion](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/stadium-scr.png)
+  
+    ![Team History](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/main-scr.png) 
+    ![Stadion](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/stadium-scr.png)
+    
 - ### Players
   - Gallery with some of the best players who played for Juventus.    ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
 - ### Fanclub
-  - Users can apply by filling a form with name and email to receive all future information about events and changes.    Below the form there is a map with the location of a fanclub meeting place.
+  - Users can apply by filling a form with name and email to receive all future information about events and changes.    
+    Below the form there is a map with the location of a fanclub meeting place.
+    
     ![Fanclub form](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/form-scr.png)
+    
     -By filling a form with valid details, a page with confirmation is appearing.
+    
     ![Fanclub form](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/thanks-scr.png)
 
 ## Future implementations
 
-- Add a new site with current news and another with more historical facts.- Modals on players grid which will contain all data about each player.- Login site for paid content including fanclub gifts, tickets and game trips.- Blog/News section
+- Add a new site with current news and another with more historical facts.
+- Modals on players grid which will contain all data about each player.
+- - Login site for paid content including fanclub gifts, tickets and game trips.
+
+- Blog/News section
+
   [Back to Table of contents](#table-of-contents)
 
 ---
@@ -178,14 +198,25 @@ I tested on hardware devices such as: 14' screen HP laptop, 17' screen Asus lapt
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check the performance of the website for each page.
-![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-lighthouse.png)![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-lighthouse.png)![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-light.png))
+
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-lighthouse.png)
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-lighthouse.png)
+![Lighthouse ](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-light.png))
 
 ## Code Validation
 
 At the and of the project I used two websites to validate a code
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-css-valid.png)![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-css-valid.png)
-- [Nu Html Checker](https://validator.w3.org/) to test HTML![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-html-check.png)![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-html-check.png)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS!
+
+- ![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-css-valid.png)
+- ![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-css-valid.png)
+
+- [Nu Html Checker](https://validator.w3.org/) to test HTML!
+- 
+- ![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-html-check.png)
+- ![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-html-check.png)
+
   [Back to Table of contents](#table-of-contents)
 
 ---
