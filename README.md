@@ -120,7 +120,10 @@ The website has below features:
     ![Stadion](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/stadium-scr.png)
     
 - ### Players
-  - Gallery with some of the best players who played for Juventus.    ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
+  - Gallery with some of the best players who played for Juventus. Each name is clickable and contain a link to wikipedia page.  
+  
+  ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
+  
 - ### Fanclub
   - Users can apply by filling a form with name and email to receive all future information about events and changes.    
     Below the form there is a map with the location of a fanclub meeting place.
