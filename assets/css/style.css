@@ -116,6 +116,7 @@ header {
 	margin-right: 10px;
 	color: var(--font-hover);
 }
+/* Stadion and video */
 
 .stadion img {
 	display: block;
@@ -126,10 +127,39 @@ header {
 	min-height: 50vh;
 	width: 100%;
 }
+.stadion {
+	background-color: var(--backgr-blk);
+}
+.stadion h2 {
+	color: var(--font-bright);
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 600;
+}
+.stadion a h2:hover{
+	color: var(--font-hover);
+}
+.stadion img {
+	width: 100%;
+	max-height: 600px;
+}
 @media only screen and (min-width: 668px) {
 	.stadion img {
 		min-height: 80vh;
 	}
+}
+
+.opening-stadion{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.opening-stadion h2{
+	text-align: center;
+	margin: 30px;
+}
+.opening-stadion iframe {
+	margin-bottom: 30px;
 }
 
 /* STARS */
@@ -150,73 +180,8 @@ header {
 	margin: 10px;
 }
 
-.stadion {
-	background-color: var(--backgr-blk);
-}
-.stadion h3 {
-	color: var(--font-bright);
-	text-align: center;
-	padding: 20px 0;
-	font-weight: 600;
-}
-.stadion img {
-	width: 100%;
-	max-height: 600px;
-}
 
-/* FOOTER */
-.footer-info {
-	background-color: var(--backgr-blk);
-	color: var(--font-bright);
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-.footer a {
-	color: var(--font-bright);
-	text-decoration: none;
-}
-.contact-info {
-	margin: 25px 0;
-	font-size: 1.1rem;
-}
-.footer-heading {
-	font-size: 1.5rem;
-	margin-bottom: 10px;
-}
-.contacts {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-.contacts i {
-	margin-right: 10px;
-}
 
-.social-networks {
-	display: flex;
-	gap: 2.5rem;
-}
-.fa-brands {
-	font-size: 2.5rem;
-	transition: 0.7s ease;
-}
-.footer-link {
-	transition: 0.7s ease;
-}
-.fa-brands:hover,
-.footer-link:hover {
-	color: var(--font-hover);
-}
-.copyright {
-	background-color: var(--backgr-blk);
-	color: var(--font-bright);
-	font-size: 10px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-/* MEDIA QUERRIES */
 
 @media only screen and (max-width: 768px) {
 	.hamburger {
@@ -280,12 +245,16 @@ header {
 	.stars-break img {
 		height: 100px;
 	}
+	.opening-stadion iframe{
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 500px) {
 	.stars-break img {
 		height: 70px;
 	}
 }
+
 
 /* PLAYERS PAGE */
 
@@ -529,4 +498,57 @@ header {
 		font-size: 1.2rem;
 		width: 70%;
 	} 
+}
+
+
+/* FOOTER */
+.footer-info {
+	background-color: var(--backgr-blk);
+	color: var(--font-bright);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a {
+	color: var(--font-bright);
+	text-decoration: none;
+}
+.contact-info {
+	margin: 25px 0;
+	font-size: 1.1rem;
+}
+.footer-heading {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.contacts i {
+	margin-right: 10px;
+}
+
+.social-networks {
+	display: flex;
+	gap: 2.5rem;
+}
+.fa-brands {
+	font-size: 2.5rem;
+	transition: 0.7s ease;
+}
+.footer-link {
+	transition: 0.7s ease;
+}
+.fa-brands:hover,
+.footer-link:hover {
+	color: var(--font-hover);
+}
+.copyright {
+	background-color: var(--backgr-blk);
+	color: var(--font-bright);
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
 }
