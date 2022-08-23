@@ -41,7 +41,7 @@ Logo and all branding informations belong to Juventus Club Spaa.
 
 ## Website owner business goals
 
-The main reason to create this website is to keep all informations about Juventus team history, players and news in same place.
+The main reason to create this website is to keep all informations about Juventus team history, players and news in same place. For all fans of Juventus team and football itself. 
 
 ## User goals
 
@@ -146,6 +146,10 @@ The website has below features:
     Below a form there is a map with location of a fanclub meeting place.
 
   ![Fanclub form](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/form-scr.png)
+
+  -By filling form with valid details, page with confirmation is appearing.
+
+  ![Fanclub form](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/thanks-scr.png) 
 
 ## Future implementations
 
@@ -265,6 +269,8 @@ this repository ([MP1](https://github.com/NewViewNewBeginning/project-01-CI)) in
 - Text for players-page [Players page text copied](https://bleacherreport.com/articles/1124889-top-10-juventus-legends-of-the-last-20-years)
 
 - Text on fanclub form [Fanclub form text copied](https://www.juventus.com/en/bianconeri/official-fan-club/)
+
+- Icons [Icons](https://fontawesome.com/)
 
 - Ideas and knowledge library:
 

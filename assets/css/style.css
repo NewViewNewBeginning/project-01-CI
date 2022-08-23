@@ -80,7 +80,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 }
 .history-header {
 	font-size: 2.5rem;
@@ -105,7 +105,7 @@ header {
 	margin: 15px;
 }
 .trophy-aside h3 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	margin: 15px;
 	font-weight: 800;
 }
@@ -277,6 +277,7 @@ header {
 	background-color: rgba(0, 0, 0, 0.613);
 	color: var(--font-bright);
 	border-radius: 10px;
+	font-size: 1.3rem;
 	width: 80%;
 	padding: 15px;
 	margin: 0 auto;
@@ -353,13 +354,13 @@ header {
 	grid-template-columns: 2fr 1fr;
 	box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 	border-radius: 10px;
-	background-image: linear-gradient(to right bottom, #0c06013c, #0f0701b3);
+	background-image: linear-gradient(to right bottom, #0000003c, #0f0701b3);
 	margin: 2rem;
 	overflow: hidden;
 }
 .cta-text-box {
 	padding: 2rem;
-	color: #45260a;
+	color: #000000;
 }
 .heading-secondary {
 	font-size: 1.5rem;
@@ -378,7 +379,7 @@ header {
 	background-image: linear-gradient(
 			to right bottom,
 			rgba(255, 255, 255, 0.23),
-			rgba(3, 1, 0, 0.751)
+			rgba(95, 67, 52, 0.585)
 		),
 		url("../img/form-fans.webp");
 	background-size: cover;
