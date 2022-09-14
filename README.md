@@ -142,10 +142,6 @@ The website has below features:
   - Gallery with some of the best players which played for Juventus.
     ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
 
-  - Gallery with some of the best players which played for Juventus. Each name is clickable and redirect to other site about player.
-    ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
-    
->>>>>>> bc27cd24cdc12e8fd4fb539e21ac56bd6551c5c9
 
 - ### Fanclub
 
@@ -222,6 +218,12 @@ I used Mozilla web developer tools and Chrome developer tools throughout the pro
 Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools.
 
 I tested on hardware devices such as: 14' screen HP laptop, 17' screen Asus laptop, 27' hp monitor, Samsung s20fe, Samsung s7edge and Samsung Note 10.
+
+## Issues found
+
+During codding I found few times that items in container were taking more space that their container which cause horizontal scrollbar. All them were scale and reduced for proper content display.
+
+The app is clear from bugs/ no bugs were found on testing.
 
 ## Performance testing
 
