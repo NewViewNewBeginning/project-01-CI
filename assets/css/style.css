@@ -80,7 +80,7 @@ header {
 	text-align: center;
 	margin: 10px;
 }
-.main-header h1 {
+.main-header h1{
 	margin: 0 auto;
 	padding: 20px 0;
 	font-size: 2.3rem;
@@ -112,6 +112,7 @@ header {
 	margin: 20px 10px;
 	padding-bottom: 20px;
 	font-weight: 600;
+	font-size: 1.1rem;
 }
 
 .team-history {
