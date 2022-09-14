@@ -76,14 +76,51 @@ header {
 
 /* History section */
 
+.main-header {
+	text-align: center;
+	margin: 10px;
+}
+.main-header h1 {
+	margin: 0 auto;
+	padding: 20px 0;
+	font-size: 2.3rem;
+	max-width: 600px;
+	background: linear-gradient(
+		to right,
+		rgb(5, 5, 5) 0,
+		hsl(50, 100%, 50%),
+		10%,
+		rgb(6, 5, 5) 20%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: shine 3s infinite linear;
+}
+@keyframes shine {
+	0% {
+		background-position: 0;
+	}
+	60% {
+		background-position: 400px;
+	}
+	100% {
+		background-position: 550px;
+	}
+}
+
+.main-header p {
+	margin: 20px 0;
+	font-weight: 600;
+}
+
 .team-history {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 .history-header {
-	font-size: 2.5rem;
+	font-size: 1.7rem;
 	font-weight: 600;
 	text-align: center;
 	margin: 20px 10px;
@@ -136,7 +173,7 @@ header {
 	padding: 20px 0;
 	font-weight: 600;
 }
-.stadion a h2:hover{
+.stadion a h2:hover {
 	color: var(--font-hover);
 }
 .stadion img {
@@ -149,12 +186,12 @@ header {
 	}
 }
 
-.opening-stadion{
+.opening-stadion {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.opening-stadion h2{
+.opening-stadion h2 {
 	text-align: center;
 	margin: 30px;
 }
@@ -179,9 +216,6 @@ header {
 	height: 200px;
 	margin: 10px;
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
 	.hamburger {
@@ -245,16 +279,17 @@ header {
 	.stars-break img {
 		height: 100px;
 	}
-	.opening-stadion iframe{
-		width: 100%;
-	}
 }
 @media only screen and (max-width: 500px) {
 	.stars-break img {
 		height: 70px;
 	}
 }
-
+@media only screen and (max-width: 968px) {
+	.opening-stadion iframe {
+		width: 100%;
+	}
+}
 
 /* PLAYERS PAGE */
 
@@ -461,13 +496,13 @@ header {
 
 /* Submit page after filling form */
 
-
 .submit-page {
 	background-image: linear-gradient(
-		to right bottom,
-		rgba(43, 38, 38, 0.858),
-		rgba(38, 14, 3, 0.751)
-	),url('../img/thank-page-img.png');
+			to right bottom,
+			rgba(43, 38, 38, 0.858),
+			rgba(38, 14, 3, 0.751)
+		),
+		url("../img/thank-page-img.png");
 	background-size: cover;
 	background-position: center;
 	background-color: var(--backgr-blk);
@@ -483,24 +518,23 @@ header {
 	font-size: 2rem;
 	padding: 30px;
 }
-.submit-page p{
+.submit-page p {
 	text-align: center;
 	font-size: 1.2rem;
 	width: 50%;
-} 
+}
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 540px) {
 	.submit-page h2 {
 		font-size: 1.5rem;
 		margin-bottom: 20px;
 	}
-	.submit-page p{
+	.submit-page p {
 		text-align: center;
 		font-size: 1.2rem;
 		width: 70%;
-	} 
+	}
 }
-
 
 /* FOOTER */
 .footer-info {
