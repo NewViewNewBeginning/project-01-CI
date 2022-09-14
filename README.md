@@ -137,8 +137,16 @@ The website has below features:
 
 - ### Players
 
+<<<<<<< HEAD
   - Gallery with some of the best players which played for Juventus.
     ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
+=======
+  - Gallery with some of the best players which played for Juventus. Each name is clickable and redirect to other site about player.
+  
+  
+    ![Players Grid](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-grid-scr.png)
+    
+>>>>>>> bc27cd24cdc12e8fd4fb539e21ac56bd6551c5c9
 
 - ### Fanclub
 
@@ -229,10 +237,20 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
 At the and of the project I used two websites to validate a code
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bc27cd24cdc12e8fd4fb539e21ac56bd6551c5c9
 ![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/fanclub-css-valid.png)
 ![CSS Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-css-valid.png)
 
 - [Nu Html Checker](https://validator.w3.org/) to test HTML
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bc27cd24cdc12e8fd4fb539e21ac56bd6551c5c9
 ![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/index-html-check.png)
 ![HTML Validation](https://github.com/NewViewNewBeginning/project-01-CI/blob/main/assets/md-img/players-html-check.png)
 
@@ -292,6 +310,11 @@ this repository ([MP1](https://github.com/NewViewNewBeginning/project-01-CI)) in
 ### Map:
 
 - [Google maps](https://goo.gl/maps/3r6zWAfrz2FURUMZ9)
+<<<<<<< HEAD
+=======
+
+[Back to Table of contents](#table-of-contents)
+>>>>>>> bc27cd24cdc12e8fd4fb539e21ac56bd6551c5c9
 
 [Back to Table of contents](#table-of-contents)
 
