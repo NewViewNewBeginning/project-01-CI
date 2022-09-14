@@ -109,7 +109,8 @@ header {
 }
 
 .main-header p {
-	margin: 20px 0;
+	margin: 20px 10px;
+	padding-bottom: 20px;
 	font-weight: 600;
 }
 
@@ -285,20 +286,17 @@ header {
 		height: 70px;
 	}
 }
-<<<<<<< HEAD
 @media only screen and (max-width: 968px) {
 	.opening-stadion iframe {
 		width: 100%;
 	}
 }
-=======
+
 @media only screen and (max-width: 968px){
 	.opening-stadion iframe{
 		width: 100%;
 	}
 }
-
->>>>>>> bc27cd24cdc12e8fd4fb539e21ac56bd6551c5c9
 
 /* PLAYERS PAGE */
 

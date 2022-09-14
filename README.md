@@ -310,11 +310,6 @@ this repository ([MP1](https://github.com/NewViewNewBeginning/project-01-CI)) in
 ### Map:
 
 - [Google maps](https://goo.gl/maps/3r6zWAfrz2FURUMZ9)
-<<<<<<< HEAD
-=======
-
-[Back to Table of contents](#table-of-contents)
->>>>>>> bc27cd24cdc12e8fd4fb539e21ac56bd6551c5c9
 
 [Back to Table of contents](#table-of-contents)
 
